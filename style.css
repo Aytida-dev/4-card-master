@@ -1,0 +1,85 @@
+body{
+    font-family: Poppins;
+    background-color: hsl(0, 0%, 98%);
+    padding-bottom: 400px;
+}
+
+.bottom{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    column-gap: 25px;
+    width: 960px;
+    height: 200px;
+    position: absolute;
+    margin: auto;
+    /* top: 0px; */
+    /* bottom: 0px; */
+    left: 0;
+    right: 0;
+}
+.first{
+    display: flex;
+    align-items: center;    
+}
+.second{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+.box{
+    background-color: white;
+    border-top: 5px solid  hsl(180, 62%, 55%);
+    border-radius: 6px;
+    padding: 5px 30px 20px 30px;
+    box-shadow: 0px 8px 20px hsl(230, 32%, 86%);
+}
+.second .one{
+    border-color: hsl(0, 78%, 62%);
+}
+.second .two{
+    border-color: hsl(34, 97%, 64%);
+}
+.third .box{
+    border-color: hsl(212, 86%, 64%);
+}
+.bottom h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.bottom p{
+    font-size:12px ;
+    color:hsl(229, 6%, 66%);
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+img{
+    float: right;
+    width: 20%;
+}
+@media (max-width:1000px){
+    .bottom{
+        grid-template-columns: 300px;
+        row-gap: 25px;
+        width: 300px;
+    }
+}
+.top{
+    display: grid;
+    text-align: center;
+    padding-top: 30px;
+}
+.top h2{
+    margin: 0;
+}
+.top h1{
+    margin: 0;
+    font-weight: 350;
+    color: hsl(290, 6%, 50%);
+}
+.top p{
+    width: 400px;
+    margin: 10px auto 30px auto;
+    font-size: 12px;
+    font-weight: 200;
+    color: hsl(290, 6%, 50%);
+}
