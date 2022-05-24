@@ -56,7 +56,7 @@ img{
     float: right;
     width: 20%;
 }
-@media (max-width:1000px){
+@media (max-width:950px){
     .bottom{
         grid-template-columns: 300px;
         row-gap: 25px;
